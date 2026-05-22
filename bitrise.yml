@@ -1,7 +1,7 @@
 ---
 app:
   envs:
-  - PLATFORM: all
+  - PLATFORM: all1
     opts:
       is_expand: false
   - PLATFORM: android
