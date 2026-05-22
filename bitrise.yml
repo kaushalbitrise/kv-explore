@@ -188,3 +188,6 @@ workflows:
             set -euo pipefail
             npx tsc --noEmit
         title: Type-check
+    meta:
+      bitrise.io:
+        machine_type_id: g2.linux.medium
