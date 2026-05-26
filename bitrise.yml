@@ -188,6 +188,3 @@ workflows:
             set -euo pipefail
             npx tsc --noEmit
         title: Type-check
-    triggers:
-      pull_request:
-      - target_branch: main
