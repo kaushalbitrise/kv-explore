@@ -49,6 +49,9 @@ workflows:
         - module: app
         - variant: release
     - deploy-to-bitrise-io@2: {}
+    triggers:
+      pull_request:
+      - target_branch: main
   ios-dev-build:
     description: |
       Installs dependencies.
